@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* TOP PART START*/
+.flex {
+  display: flex;
+}
+
+
+.top__container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0px 0px;
+}
+
+.top__container h1 {
+  color: yellow;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+ul {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  margin: 10px;
+}
+
+li a:hover {
+  background-color: #b6b6b6;
+}
+  
+a {
+  color: rgb(255, 255, 255);
+}
+/* TOP PART END */
+
+/*  MID PART START */
+.banner {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(83, 82, 82);
+  padding: 5px 0px;
+}
+
+.banner h3 {
+  color: rgb(0, 0, 0);
+}
+
+.banner span {
+  text-decoration: line-through;
+}
+
+.banner span1 {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+/*  MID PART END*/
+
+/* BACKGROUND SEC*/
+.background {
+  background-image: url("../img/googleoffice.jpg");
+  background-size: cover;
+  height: 600px;
+  padding: 10px 0;
+}
+
+
+.content_1 {
+    position: absolute;
+    right: 50px;
+    bottom: 350px;
+    background-color: rgba(255, 255, 255, 0.199);
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 50px;
+  }
+
+.p1 h2 {
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .button__1 {
+    background-color: #ffe600; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 60px;
+    cursor: pointer;
+  }
+  
+  /* BACKGROUND SEC END */
+
+  /* BOTTOM SECTION */
+
+  .walk_through .item{
+    box-shadow: -1px 5px 5px rgb(96, 96, 96);
+    padding: 56px;
+}
+
+.text__1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button__2 {
+  background-color: #d4d4d4; /* Green */
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 60px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: Black;
+  color: white;
+}
+
+.a {
+  margin-left: 30px;
+}
+
+/* END OF BOTTOM SEC */
